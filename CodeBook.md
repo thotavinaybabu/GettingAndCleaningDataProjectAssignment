@@ -17,10 +17,9 @@ The source data was collected from the [UCI Machine Learning Repository](http://
 7. Paired down the data frames to only include the mean and standard deviation variables
 8. Replaced activity IDs with the activity labels for readability
 9. Combined the data frames to produce one data frame containing the subjects, measurements and activities
-10. Produced "merged_tidy_data.txt" with the combined data frame as the first expected output
-11. Created another data set using the data.table library to easily group the tidy data by subject and activity
-12. Then applied the mean and standard deviation calculations across the groups
-13. Produced "calculated_mean_data.txt" as the second expected output
+10. Created another data set using the data.table library to easily group the tidy data by subject and activity
+11. Then applied the mean and standard deviation calculations across the groups
+12. Produced tidy.txt (renamed as "calculated_mean_data.txt" for submission) as the second expected output
 
 Please refer to run_analysis.R for implementation details.
 
